@@ -1,0 +1,14 @@
+None
+dict = {
+    "Fritura"": Alimento que se come en la calle"
+    "Wasakaka"": Salsa con un poco de picante para algunos alimentos"
+    "agallu"": es cuando alguien quiere conseguir algo a toda costa y al final no pudo"
+
+}
+
+for i in range(5):
+    word = input("escribe una palabra que no entiendas: ")
+    if word in dict.keys():
+        print(word,"significa", [word])
+    else:
+        print("Esa palabra no esta en el diccionario.")
